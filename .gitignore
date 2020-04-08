@@ -1,0 +1,15 @@
+# IGNORAR TODOS OS ARQUIVOS XLSX
+
+.idea/
+enve/
+__pycache__/
+
+*.xlsx
+*.csv
+*.txt
+
+
+*.csv
+*.sql
+
+*.rar
