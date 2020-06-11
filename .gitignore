@@ -5,6 +5,7 @@ enve/
 __pycache__/
 
 *.xlsx
+*.docx
 *.csv
 *.txt
 

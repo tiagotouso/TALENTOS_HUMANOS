@@ -3,7 +3,7 @@ ARQUIVO PARA CONEXÃO COM BANCO DE DADOS
 
 SERVICE Mysql@localhost:3306
 User root
-Password 1234
+Password ROOT123
 '''
 import pandas as pd
 import pymysql
@@ -12,7 +12,7 @@ from datetime import datetime
 
 host = 'localhost'
 user = 'root'
-passwd = '123456' #1234 (prorh) ou null ou #1234 ou root
+passwd = 'root123'
 db = 'talentoshumanos'
 
 def sqlpandas(sql):

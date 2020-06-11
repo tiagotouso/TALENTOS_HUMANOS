@@ -1,0 +1,1960 @@
+<HAScript name="DOCUMENTOS-D-07-2013" description="DOCUMENTOS-D-07-2013" timeout="60000" pausetime="300" promptall="true" blockinput="false" author="uftm" creationdate="08/10/2013 15:32:06" supressclearevents="false" usevars="false" ignorepauseforenhancedtn="true" delayifnotenhancedtn="0" ignorepausetimeforenhancedtn="true">
+
+    <screen name="Tela1" entryscreen="true" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="SIAPE-SERVIDOR-EXTRX[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela2" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela2" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[down][down][down][down][down][down]XXXXXXX[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela3" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela3" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela4" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela4" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela5" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela5" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="19" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="IN[pf10]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela6" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela6" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="180" optional="false" invertmatch="false" />
+            <numinputfields number="3" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="262540000000262549999999[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela7" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela7" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="19" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela8" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela8" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="71" optional="false" invertmatch="false" />
+            <numinputfields number="1" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="PO[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela9" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela9" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="57" optional="false" invertmatch="false" />
+            <numinputfields number="3" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="ARQ01[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela10" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela10" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="127" optional="false" invertmatch="false" />
+            <numinputfields number="0" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela11" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela11" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="163" optional="false" invertmatch="false" />
+            <numinputfields number="0" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela12" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela12" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="71" optional="false" invertmatch="false" />
+            <numinputfields number="1" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela13" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela13" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="19" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela14" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela14" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[down][down][down][down][down][down][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela15" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela15" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela16" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela16" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][delete][down][delete][down][delete][down][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela17" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela17" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela18" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela18" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela19" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela19" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela20" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela20" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="21" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela21" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela21" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="71" optional="false" invertmatch="false" />
+            <numinputfields number="1" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="PO[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela22" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela22" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="57" optional="false" invertmatch="false" />
+            <numinputfields number="3" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="ARQ02[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela23" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela23" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="127" optional="false" invertmatch="false" />
+            <numinputfields number="0" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela24" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela24" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="163" optional="false" invertmatch="false" />
+            <numinputfields number="0" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela25" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela25" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="71" optional="false" invertmatch="false" />
+            <numinputfields number="1" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela26" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela26" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="21" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela27" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela27" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela28" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela28" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela29" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela29" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela30" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela30" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][delete][delete][down][delete][down][delete][down][up][delete][down][delete][down][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela31" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela31" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][delete][down][delete][down][delete][down][delete][down][delete][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela32" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela32" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela33" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela33" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela34" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela34" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela35" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela35" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela36" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela36" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="20" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela37" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela37" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="71" optional="false" invertmatch="false" />
+            <numinputfields number="1" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="PO[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela38" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela38" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="57" optional="false" invertmatch="false" />
+            <numinputfields number="3" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="ARQ03[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela39" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela39" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="127" optional="false" invertmatch="false" />
+            <numinputfields number="0" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela40" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela40" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="163" optional="false" invertmatch="false" />
+            <numinputfields number="0" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela41" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela41" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="71" optional="false" invertmatch="false" />
+            <numinputfields number="1" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela42" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela42" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="20" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela43" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela43" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela44" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela44" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela45" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela45" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela46" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela46" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela47" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela47" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela48" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela48" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela49" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela49" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela50" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela50" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela51" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela51" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela52" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela52" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela53" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela53" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela54" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela54" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela55" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela55" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="25" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela56" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela56" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="71" optional="false" invertmatch="false" />
+            <numinputfields number="1" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="PO[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela57" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela57" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="57" optional="false" invertmatch="false" />
+            <numinputfields number="3" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="ARQ04[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela58" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela58" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="127" optional="false" invertmatch="false" />
+            <numinputfields number="0" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela59" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela59" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="163" optional="false" invertmatch="false" />
+            <numinputfields number="0" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela60" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela60" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="71" optional="false" invertmatch="false" />
+            <numinputfields number="1" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela61" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela61" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="25" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela62" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela62" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="19" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela63" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela63" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="17" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela64" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela64" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="10" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela65" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela65" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela66" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela66" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela67" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela67" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela68" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela68" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela69" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela69" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela70" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela70" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela71" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela71" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela72" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela72" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela73" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela73" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela74" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela74" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela75" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela75" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela76" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela76" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela77" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela77" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela78" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela78" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela79" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela79" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela80" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela80" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="22" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela81" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela81" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="71" optional="false" invertmatch="false" />
+            <numinputfields number="1" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="PO[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela82" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela82" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="57" optional="false" invertmatch="false" />
+            <numinputfields number="3" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="ARQ05[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela83" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela83" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="127" optional="false" invertmatch="false" />
+            <numinputfields number="0" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela84" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela84" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="163" optional="false" invertmatch="false" />
+            <numinputfields number="0" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela85" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela85" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="71" optional="false" invertmatch="false" />
+            <numinputfields number="1" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela86" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela86" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="22" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela87" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela87" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela88" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela88" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela89" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela89" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela90" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela90" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela91" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela91" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela92" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela92" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela93" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela93" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela94" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela94" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela95" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela95" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela96" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela96" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela97" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela97" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela98" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela98" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela99" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela99" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela100" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela100" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela101" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela101" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][delete][down][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela102" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela102" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela103" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela103" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela104" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela104" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela105" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela105" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="33" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela106" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela106" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="71" optional="false" invertmatch="false" />
+            <numinputfields number="1" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="PO[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela107" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela107" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="57" optional="false" invertmatch="false" />
+            <numinputfields number="3" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="ARQ06[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela108" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela108" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="127" optional="false" invertmatch="false" />
+            <numinputfields number="0" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela109" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela109" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="163" optional="false" invertmatch="false" />
+            <numinputfields number="0" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela110" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela110" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="71" optional="false" invertmatch="false" />
+            <numinputfields number="1" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela111" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela111" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="33" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela112" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela112" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela113" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela113" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela114" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela114" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela115" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela115" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela116" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela116" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela117" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela117" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela118" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela118" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela119" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela119" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela120" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela120" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela121" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela121" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela122" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela122" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela123" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela123" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela124" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela124" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela125" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela125" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela126" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela126" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela127" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela127" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela128" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela128" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela129" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela129" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[delete][down][delete][down][delete][down][delete][delete][down][delete][down][delete][down][delete][delete][down][delete][down][delete][down][delete][down][delete][down][delete][down][delete][pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela130" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela130" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela131" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela131" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXXXXXXXXXXXX[pf8]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela132" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela132" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="4" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="XXX[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela133" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela133" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="27" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela134" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela134" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="71" optional="false" invertmatch="false" />
+            <numinputfields number="1" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="PO[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela135" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela135" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="57" optional="false" invertmatch="false" />
+            <numinputfields number="3" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="ARQ06[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela136" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela136" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="127" optional="false" invertmatch="false" />
+            <numinputfields number="0" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[enter]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela137" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela137" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="163" optional="false" invertmatch="false" />
+            <numinputfields number="0" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela138" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela138" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="71" optional="false" invertmatch="false" />
+            <numinputfields number="1" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela139" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela139" entryscreen="false" exitscreen="false" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="257" optional="false" invertmatch="false" />
+            <numinputfields number="27" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+            <nextscreen name="Tela140" />
+        </nextscreens>
+    </screen>
+
+    <screen name="Tela140" entryscreen="false" exitscreen="true" transient="false">
+        <description >
+            <oia status="NOTINHIBITED" optional="false" invertmatch="false" />
+            <numfields number="125" optional="false" invertmatch="false" />
+            <numinputfields number="14" optional="false" invertmatch="false" />
+        </description>
+        <actions>
+            <input value="[pf12]" row="0" col="0" movecursor="true" xlatehostkeys="true" encrypted="false" />
+        </actions>
+        <nextscreens timeout="0" >
+        </nextscreens>
+    </screen>
+
+</HAScript>
