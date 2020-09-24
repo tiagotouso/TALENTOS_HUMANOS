@@ -22,60 +22,57 @@ from REL_SERVIDORESdoiscargos import ServidoresComDoisCargos
 from REL_SERVIDORESqs import quandroServidores
 
 
-data = datetime.now()
+def rotina():
 
-tbsql = '''delete from tb_ser_doc;
-delete from tb_ser_end;'''.split('\n')
+    data = datetime.now()
 
-sql = documentos() #IMPORTAR DADOS DO EXTRATOR (DOCUMENTOS)
-tbsql.append(sql)
+    tbsql = '''delete from tb_ser_doc;
+    delete from tb_ser_end;'''.split('\n')
 
-sql = enderecos() #IMPORTAR DADOS DO EXTRATOR (ENDERECOS)
-tbsql.append(sql)
+    sql = documentos() #IMPORTAR DADOS DO EXTRATOR (DOCUMENTOS)
+    tbsql.append(sql)
 
-tbsql.append('commit;')
+    sql = enderecos() #IMPORTAR DADOS DO EXTRATOR (ENDERECOS)
+    tbsql.append(sql)
 
-
-for sql in tbsql: # LOOP PARA EXECUTAR TABELA DE SQL
-    sqlexecute(sql)
+    tbsql.append('commit;')
 
 
-# IMPORTAÇÕES
-importarAmbienteServidores() # IMPORTAR DA PLANILHA OS AMBIENTE DOS SERVIDORES
-ImportarServidoresCedidos() # IMPORTAR DO SIAPE OS CEDIDOS
-importarChefias() # IMPORTAR A LISTA DE CHEFIA DA PLANILHA
-importarEmailServidor() # IMPORTAR E-MAIL DO SERVIDORES DA PLANILHA
+    for sql in tbsql: # LOOP PARA EXECUTAR TABELA DE SQL
+        sqlexecute(sql)
 
 
-
-# CORREÇÕES
-correcaodobanco() # SQL DE CORREÇÃO DO BANCO DE DADOS
-relatorioerrosistema() # RELATÓRIO DE DADOS VAZIOS NO BANCO
-
-
-
-# RELATÓRIOS
-agentespublicos()
-dashboardGestores()
-dashboardServidores()
-docentespordepartamentos()
-ServidoresGestores()
-arquivostodosnovos()
-servidoresanoano()
-arquivoservidoresdeficientes()
-ServidoresComDoisCargos()
-quandroServidores()
+    # IMPORTAÇÕES
+    importarAmbienteServidores() # IMPORTAR DA PLANILHA OS AMBIENTE DOS SERVIDORES
+    ImportarServidoresCedidos() # IMPORTAR DO SIAPE OS CEDIDOS
+    importarChefias() # IMPORTAR A LISTA DE CHEFIA DA PLANILHA
+    importarEmailServidor() # IMPORTAR E-MAIL DO SERVIDORES DA PLANILHA
 
 
-# CORREÇÕES
-correcaodobanco() # SQL DE CORREÇÃO DO BANCO DE DADOS
-#relatorioerrosistema() # RELATÓRIO DE DADOS VAZIOS NO BANCO
+    # CORREÇÕES
+    correcaodobanco() # SQL DE CORREÇÃO DO BANCO DE DADOS
+    relatorioerrosistema() # RELATÓRIO DE DADOS VAZIOS NO BANCO
 
 
-dataii = datetime.now()
-print(data)
-print(dataii)
-print(dataii - data)
+    # RELATÓRIOS
+    agentespublicos()
+    dashboardGestores()
+    dashboardServidores()
+    docentespordepartamentos()
+    ServidoresGestores()
+    arquivostodosnovos()
+    servidoresanoano()
+    arquivoservidoresdeficientes()
+    ServidoresComDoisCargos()
+    quandroServidores()
 
 
+    dataii = datetime.now()
+    print(data)
+    print(dataii)
+    print(dataii - data)
+
+
+if __name__ == "__main__":
+    rotina()
 

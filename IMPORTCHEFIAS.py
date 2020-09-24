@@ -30,7 +30,7 @@ def importarChefias():
         planilha = [['GR_MATRICULA', 'CD_FUNCAO', 'CARGO', 'DOC_LEGAL']]
         for i in dados.values:
             aux = []
-            aux.append(str(int(i[0])).rjust(7, '0'))
+            aux.append(str(int(i[0])).rjust(7, '0')[0:7])
             aux.append(i[1])
             aux.append(i[2])
             aux.append(i[3])

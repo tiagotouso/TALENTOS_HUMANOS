@@ -30,7 +30,7 @@ def importarAmbienteServidores():
         dados['Siape'] = dados['Siape'].apply(lambda x: str(x).rjust(7, '0'))
         dados = dados.dropna(thresh=2)
         dados = dados.fillna('null')
-        dados = dados[dados.duplicated() == False]
+        dados = dados[dados['Siape'].duplicated() == False]
 
         sql = '''delete from ts_sis_ambientes;'''
         sqlexecute(sql)
@@ -48,4 +48,5 @@ def importarAmbienteServidores():
         mensagemInformacao('Importação do AMBIENTE concluída.')
     else:
         mensagemErro('Arquivo "servidores.xlsx" não encontrado. (AMBIENTE)')
+
 

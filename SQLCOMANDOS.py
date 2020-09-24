@@ -589,8 +589,16 @@ def correcaodobanco():
                 ''')
 
 
-    # INCLUIR SIAPE NA TABELA DE SERVIDORES CEDIDOS DO MES
-    # 054 TB IMPORTADA DO SIAPE
+    # 054 INCLUIR SIAPE NA TABELA DE SERVIDORES CEDIDOS DO MES
+
+    sql.append('''update
+                tb_ser_rel as a
+                set 
+                a.IT_NU_IDEN_SERV_ORIGEM = lpad(a.IT_NU_IDEN_SERV_ORIGEM, 10, '0');
+                ''')
+
+
+    # 055 TB IMPORTADA DO SIAPE
     sql.append('''UPDATE 
                 ts_sis_cedidos as a 
                 join tb_ser_rel as b on a.siapecad = b.IT_NU_IDEN_SERV_ORIGEM 
@@ -598,7 +606,7 @@ def correcaodobanco():
                 a.GR_MATRICULA = b.gr_matricula;''')
 
 
-    # 055 INCLUIR CEDIDO NA TB REL
+    # 056 INCLUIR CEDIDO NA TB REL
     sql.append('''UPDATE tb_ser_rel AS A
                     JOIN
                 ts_sis_cedidos AS B ON B.GR_MATRICULA = A.GR_MATRICULA 
@@ -607,14 +615,14 @@ def correcaodobanco():
                 A.CEDIDO_DT = B.DT_I;''')
 
 
-    # 056 COLOCAR OBSERVAÇÃO NOS PENSIONISTAS CADASTRADOS NO SIAPE
+    # 057 COLOCAR OBSERVAÇÃO NOS PENSIONISTAS CADASTRADOS NO SIAPE
     sql.append('''UPDATE TB_SER_REL AS A
             SET A.OBS = 'PENSIONISTAS CASDASTRADOS NO SIAPE - PENSÃO JUDICIAL'
             WHERE A.IT_SG_REGIME_JURIDICO = 'NES' 
             AND A.IT_CO_SITUACAO_SERVIDOR = '84';''')
 
 
-    # 057 COLOCAR PAIS DOS SERVIDORES BRASILEIROS
+    # 058 COLOCAR PAIS DOS SERVIDORES BRASILEIROS
     sql.append('''update tb_ser_rel
                 set des_pais = 'BRASIL'
                 where des_nacionalidade = 'BRASILEIRO';''')

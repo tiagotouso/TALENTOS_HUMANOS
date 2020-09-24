@@ -18,7 +18,10 @@ def ImportarServidoresCedidos():
         BANCO DE DADOS ATUALIZADO COM SERVIDORES CEDIDOS
     '''
 
-    listdir = os.listdir('DADOS_EXTRATOR\\')
+    listdir = []
+    for vl in os.listdir('DADOS_EXTRATOR\\'):
+        listdir.append(str(vl).upper())
+
     if 'CEDIDOS.TXT' in listdir:
 
         sql = 'delete  from ts_sis_cedidos;'
@@ -30,12 +33,13 @@ def ImportarServidoresCedidos():
 
         texto = texto.split('\n')
         newtb = []
+        siapecadunico = set()
         for vl in range(0, len(texto)):
             if texto[vl].count('INICIO:') > 0:
                 l2 = texto[vl].split()
                 l1 = texto[vl - 1].split()
 
-                siapecad = l1[0]
+                siapecad = str(l1[0]).rjust(10, '0')
                 orgao = l1[-1]
                 data = l2[1]
 
@@ -57,7 +61,9 @@ def ImportarServidoresCedidos():
 
                 lotacao = l2[-1]
 
-                newtb.append((siapecad, data, lotacao, orgao))
+                if not siapecad in siapecadunico:
+                    siapecadunico.add(siapecad)
+                    newtb.append((siapecad, data, lotacao, orgao))
 
         sql = ''
         for i in newtb:
@@ -76,5 +82,4 @@ def ImportarServidoresCedidos():
 
         mensagemInformacao('Importaçaõ dos CEDIDOS-SIAPE concluída.')
     else:
-        mensagemErro('Arquivo CEDIDOS.TX não encontrado.')
-
+        mensagemErro('Arquivo CEDIDOS.XTX não encontrado.')
