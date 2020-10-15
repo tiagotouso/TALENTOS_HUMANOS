@@ -8,6 +8,7 @@ __pycache__/
 *.docx
 *.csv
 *.txt
+*.ref
 
 
 *.csv
